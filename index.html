@@ -6,22 +6,22 @@
 <script type="text/javascript" src="./jquery-1.11.0.js"> </script>
 <script type="text/javascript">
 		$( "document" ).ready( function() {
-			$("ul[class*=c]").css("border","3px solid red");
+			$("li:contains(2), p:contains(2)").css("border","3px solid red");
 		} );
 </script>
 
 </head>
 <body>
 	<ul class="abc">
-		<li>one</li>
-		<li>tow</li>
-		<li>three</li>
-		<li>four</li>
+		<li>one = 1 </li>
+		<li>tow = 2 </li>
+		<li>three = 3 </li>
+		<li>four = 4 </li>
 	</ul>
 
 	<div class="xyz">
-		<p id="1">ABC</p>
-		<p id="2">DEF</p>
+		<p id="1"> Paragraph 1 </p>
+		<p id="2"> Paragraph 2 </p>
 	</div>
 
 </body>
