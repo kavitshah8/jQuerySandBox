@@ -6,14 +6,14 @@
 <script type="text/javascript" src="./jquery-1.11.0.js"> </script>
 <script type="text/javascript">
 		$( "document" ).ready( function() {
-			$("p:parent").css("border","3px solid red");
+			$("ul:has(li[class=a])").css("border","3px solid red");
 		} );
 </script>
 
 </head>
 <body>
 	<ul class="abc">
-		<li>one = 1 </li>
+		<li class="a">one = 1 </li>
 		<li>tow = 2 </li>
 		<li>three = 3 </li>
 		<li>four = 4 </li>
